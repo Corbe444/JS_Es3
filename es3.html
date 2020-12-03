@@ -7,23 +7,11 @@
 
         <input type="number" id = "casella1"></input>
         <input type="number" id = "casella2"></input>
-
+        <p id = "risultato"></p>
+        
         <script src = "https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-        <script>
-            var button1 = $("<button>+</button>");
-            $("body").append(button1); 
-            var somma = function(){
-                var n1 = $("#casella1").val();
-                console.log("n1: ", n1);
-                var n2 = $("#casella2").val();
-                console.log("n2: ", n2);
-                var operazione = n1+n2;
-                $("<h3>Il risultato è: </h3>").append(operazione);
-            }
-            button1.on("click", somma);
-            
-            console.log
+        <script src = es3.js>   
         </script>
     </body>
 </html>
